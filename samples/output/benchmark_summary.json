@@ -1,0 +1,51 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "historical_files": 10,
+ "mined_edits": 64,
+ "playbook_rules": 10,
+ "mine_seconds": 7.2,
+ "mine_calls": 8,
+ "key_edits": 31,
+ "found": 31,
+ "engine_edits": 36,
+ "engine_edits_matching_key": 35,
+ "written": 36,
+ "rejected": 0,
+ "errors": 0,
+ "match_types": {
+  "exact": 36,
+  "normalized": 0,
+  "fuzzy": 0
+ },
+ "pdf_readback_ok": 17,
+ "pdf_written": 17,
+ "docx_integrity": {
+  "N01_Redfern_Hollis_Contractors_Subcontract.docx": {
+   "reopens": true,
+   "reject_all_equals_original": true,
+   "libreoffice_converts": true,
+   "comments": 10
+  },
+  "N02_Granite_Point_Builders_Subcontract.docx": {
+   "reopens": true,
+   "reject_all_equals_original": true,
+   "libreoffice_converts": true,
+   "comments": 2
+  },
+  "N03_Lakeshore_Design_Build_LLC_Subcontract.docx": {
+   "reopens": true,
+   "reject_all_equals_original": true,
+   "libreoffice_converts": true,
+   "comments": 7
+  }
+ },
+ "calls": 78,
+ "retries": 0,
+ "failures": 0,
+ "schema_violations": 7,
+ "repaired_in_code": 7,
+ "max_input_tokens": 1667,
+ "max_output_tokens": 1271,
+ "median_call_seconds": 1.36,
+ "p95_call_seconds": 4.15
+}

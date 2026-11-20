@@ -1,0 +1,168 @@
+{
+ "rules": [
+  {
+   "id": "RETA-1",
+   "topic": "Retainage",
+   "trigger": "ten percent (10%)",
+   "position": "Retainage capped at five percent to limit cash flow impact.",
+   "preferred_language": "five percent (5%)",
+   "rationale": "Retainage capped at 5%.",
+   "examples": [
+    "H01_Northgate_Builders_Inc_Subcontract.docx",
+    "H05_Westbrook_General_Contracting_Subcontract.docx",
+    "H06_Harlow_Kemp_Builders_Subcontract.docx",
+    "H08_Ostrander_Brothers_Inc_Subcontract.docx",
+    "H09_Meridian_Civil_Building_Subcontract.pdf"
+   ]
+  },
+  {
+   "id": "RETA-2",
+   "topic": "Retainage",
+   "trigger": "final completion of the Project and final payment by the Owner to Contractor | final completion and acceptance of the entire Project by the Owner | final completion and acceptance of the entire Project by the Owner.",
+   "position": "Retainage released at Substantial Completion of the Work, not at final project completion.",
+   "preferred_language": "Substantial Completion of the Work",
+   "rationale": "Retainage released at Substantial Completion of our Work, not the whole Project.",
+   "examples": [
+    "H01_Northgate_Builders_Inc_Subcontract.docx",
+    "H02_Calder_Price_Construction_Co_Subcontract.docx",
+    "H03_Summit_Ridge_Contractors_LLC_Subcontract.docx",
+    "H04_Ironline_Constructors_Inc_Subcontract.docx",
+    "H05_Westbrook_General_Contracting_Subcontract.docx",
+    "H06_Harlow_Kemp_Builders_Subcontract.docx",
+    "H07_Pinecrest_Construction_Group_Subcontract.docx",
+    "H08_Ostrander_Brothers_Inc_Subcontract.docx",
+    "H09_Meridian_Civil_Building_Subcontract.pdf"
+   ]
+  },
+  {
+   "id": "DELA-1",
+   "topic": "Delays – Subcontractor Recovery of Delay Damages",
+   "trigger": "Any clause that bars or limits the Subcontractor's right to recover delay damages (e.g., language stating the Subcontractor waives or cannot claim delay damages).",
+   "position": "Immediately following the clause that bars delay damages, insert a carve‑out sentence.",
+   "preferred_language": "This Section does not bar Subcontractor's recovery of delay damages to the extent Contractor recovers such damages from the Owner on Subcontractor's behalf, or to the extent the delay is caused by Contractor.",
+   "rationale": "Ensures the Subcontractor can still recover delay damages when the delay is caused by the Contractor or when the Contractor recovers damages from the Owner on the Subcontractor’s behalf, preserving the Subcontractor’s right to be compensated for Contractor‑caused or Owner‑paid delays.",
+   "examples": [
+    "H01_Northgate_Builders_Inc_Subcontract.docx",
+    "H02_Calder_Price_Construction_Co_Subcontract.docx",
+    "H04_Ironline_Constructors_Inc_Subcontract.docx",
+    "H06_Harlow_Kemp_Builders_Subcontract.docx",
+    "H07_Pinecrest_Construction_Group_Subcontract.docx",
+    "H08_Ostrander_Brothers_Inc_Subcontract.docx",
+    "H10_Talbot_Yard_Construction_Subcontract.pdf"
+   ]
+  },
+  {
+   "id": "CLAI-1",
+   "topic": "Claims – Notice Period",
+   "trigger": "The contract requires the subcontractor to give claim notice \"within\" a number of days that is less than fourteen (14) days (e.g., within seven (7) days, within three (3) days, within five (5) days).",
+   "position": "Requirement for the subcontractor to provide claim notice within a specified number of days.",
+   "preferred_language": "within fourteen (14) days",
+   "rationale": "A notice period of less than fourteen (14) days is not workable for the subcontractor to assess and respond to a claim.",
+   "examples": [
+    "H01_Northgate_Builders_Inc_Subcontract.docx",
+    "H03_Summit_Ridge_Contractors_LLC_Subcontract.docx",
+    "H04_Ironline_Constructors_Inc_Subcontract.docx",
+    "H05_Westbrook_General_Contracting_Subcontract.docx",
+    "H06_Harlow_Kemp_Builders_Subcontract.docx",
+    "H07_Pinecrest_Construction_Group_Subcontract.docx",
+    "H09_Meridian_Civil_Building_Subcontract.pdf"
+   ]
+  },
+  {
+   "id": "CONS-1",
+   "topic": "Consequential Damages",
+   "trigger": "Subcontractor waives all claims against Contractor and the Owner",
+   "position": "Waiver of consequential damages clause",
+   "preferred_language": "Contractor and Subcontractor mutually waive all claims against each other",
+   "rationale": "Waiver of consequential damages must be mutual; the original one‑sided waiver is unacceptable.",
+   "examples": [
+    "H01_Northgate_Builders_Inc_Subcontract.docx",
+    "H03_Summit_Ridge_Contractors_LLC_Subcontract.docx",
+    "H04_Ironline_Constructors_Inc_Subcontract.docx",
+    "H06_Harlow_Kemp_Builders_Subcontract.docx",
+    "H07_Pinecrest_Construction_Group_Subcontract.docx",
+    "H08_Ostrander_Brothers_Inc_Subcontract.docx",
+    "H09_Meridian_Civil_Building_Subcontract.pdf"
+   ]
+  },
+  {
+   "id": "WARR-1",
+   "topic": "Warranty period",
+   "trigger": "for a period of two (2) years",
+   "position": "Warranty clause specifying the duration of the warranty after Substantial Completion",
+   "preferred_language": "for a period of one (1) year",
+   "rationale": "The company's standard warranty is one (1) year from Substantial Completion; therefore any language offering a two‑year warranty is reduced to one year to align with company policy.",
+   "examples": [
+    "H01_Northgate_Builders_Inc_Subcontract.docx",
+    "H02_Calder_Price_Construction_Co_Subcontract.docx",
+    "H03_Summit_Ridge_Contractors_LLC_Subcontract.docx",
+    "H05_Westbrook_General_Contracting_Subcontract.docx",
+    "H06_Harlow_Kemp_Builders_Subcontract.docx",
+    "H07_Pinecrest_Construction_Group_Subcontract.docx",
+    "H10_Talbot_Yard_Construction_Subcontract.pdf"
+   ]
+  },
+  {
+   "id": "PROG-1",
+   "topic": "Progress Payments",
+   "trigger": "Any clause stating that receipt of payment from the Owner (e.g., “Payment by the Owner to Contractor is an express condition precedent to any payment by Contractor to Subcontractor,” or “Receipt of payment by Contractor from the Owner for the Work is a condition precedent to Contractor's obligation to make any payment to Subcontractor.”)",
+   "position": "Condition‑precedent language in the progress‑payments provision (pay‑if‑paid clause).",
+   "preferred_language": "Payment by the Owner is not a condition precedent to payment to Subcontractor. Contractor shall pay Subcontractor no later than forty‑five (45) days after receipt of Subcontractor's approved application, unless nonpayment results from Subcontractor's default.",
+   "rationale": "The company rejects pay‑if‑paid terms because they shift the risk of the Owner's non‑payment to the Subcontractor. A pay‑when‑paid provision with a 45‑day outside date preserves the Subcontractor’s right to timely payment while allowing a limited excuse for non‑payment only if the Subcontractor is in default.",
+   "examples": [
+    "H02_Calder_Price_Construction_Co_Subcontract.docx",
+    "H03_Summit_Ridge_Contractors_LLC_Subcontract.docx",
+    "H04_Ironline_Constructors_Inc_Subcontract.docx",
+    "H07_Pinecrest_Construction_Group_Subcontract.docx",
+    "H08_Ostrander_Brothers_Inc_Subcontract.docx",
+    "H10_Talbot_Yard_Construction_Subcontract.pdf"
+   ]
+  },
+  {
+   "id": "LIQU-1",
+   "topic": "Liquidated Damages – Daily Rate",
+   "trigger": "any language that states the subcontractor will pay liquidated damages \"for each day of delay, without limitation\" or \"for each day of delay, without any cap or limit\"",
+   "position": "Liquidated Damages clause (daily LD provision)",
+   "preferred_language": "for each day of delay, only to the extent the Owner assesses liquidated damages against Contractor caused by Subcontractor's delay, not to exceed ten percent (10%) of the Subcontract Sum.",
+   "rationale": "Limits the subcontractor's liability to a pass‑through of the owner's assessed LDs and caps that liability at 10% of the Subcontract Sum, protecting the subcontractor from unlimited exposure.",
+   "examples": [
+    "H03_Summit_Ridge_Contractors_LLC_Subcontract.docx",
+    "H04_Ironline_Constructors_Inc_Subcontract.docx",
+    "H05_Westbrook_General_Contracting_Subcontract.docx",
+    "H06_Harlow_Kemp_Builders_Subcontract.docx",
+    "H07_Pinecrest_Construction_Group_Subcontract.docx",
+    "H08_Ostrander_Brothers_Inc_Subcontract.docx",
+    "H09_Meridian_Civil_Building_Subcontract.pdf",
+    "H10_Talbot_Yard_Construction_Subcontract.pdf"
+   ]
+  },
+  {
+   "id": "INDE-1",
+   "topic": "Indemnification",
+   "trigger": "whether or not caused in whole or in part by the negligence of Contractor or the Owner",
+   "position": "Broad‑form indemnity clause that makes the subcontractor liable regardless of its own fault",
+   "preferred_language": "but only to the extent caused by the negligent acts or omissions of Subcontractor or anyone for whom Subcontractor is responsible",
+   "rationale": "The subcontractor rejects a blanket indemnity that would bind it for the Owner’s or Contractor’s negligence. The company’s policy is to limit indemnity strictly to the subcontractor’s own negligence (or the negligence of parties it controls) to avoid assuming unlimited liability.",
+   "examples": [
+    "H03_Summit_Ridge_Contractors_LLC_Subcontract.docx",
+    "H07_Pinecrest_Construction_Group_Subcontract.docx",
+    "H09_Meridian_Civil_Building_Subcontract.pdf"
+   ]
+  },
+  {
+   "id": "INDE-2",
+   "topic": "Indemnification",
+   "trigger": "regardless of whether such claim is caused in part by a party indemnified hereunder",
+   "position": "Broad‑form indemnity clause that makes the subcontractor liable even when the claim is partially caused by another indemnified party",
+   "preferred_language": "but only to the extent caused by the negligent acts or omissions of Subcontractor or anyone for whom Subcontractor is responsible",
+   "rationale": "The subcontractor’s standard position is to refuse indemnity language that imposes liability beyond its own negligence. The replacement caps indemnity to the subcontractor’s own negligent acts or those of persons for whom it is responsible, thereby limiting exposure.",
+   "examples": [
+    "H04_Ironline_Constructors_Inc_Subcontract.docx",
+    "H05_Westbrook_General_Contracting_Subcontract.docx",
+    "H06_Harlow_Kemp_Builders_Subcontract.docx",
+    "H08_Ostrander_Brothers_Inc_Subcontract.docx",
+    "H10_Talbot_Yard_Construction_Subcontract.pdf"
+   ]
+  }
+ ]
+}

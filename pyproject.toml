@@ -1,0 +1,21 @@
+[project]
+name = "redline-poc"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "python-docx>=1.2.0",
+  "lxml>=5.0",
+  "pymupdf>=1.24",
+  "openai>=1.50",
+  "pydantic>=2.7",
+  "rapidfuzz>=3.9",
+  "tiktoken>=0.7",
+  "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
