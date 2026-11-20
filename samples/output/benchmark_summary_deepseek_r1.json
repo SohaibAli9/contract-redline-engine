@@ -1,0 +1,51 @@
+{
+ "model": "deepseek/deepseek-r1-0528",
+ "historical_files": 10,
+ "mined_edits": 64,
+ "playbook_rules": 10,
+ "mine_seconds": 0.5,
+ "mine_calls": 0,
+ "key_edits": 31,
+ "found": 26,
+ "engine_edits": 27,
+ "engine_edits_matching_key": 26,
+ "written": 27,
+ "rejected": 0,
+ "errors": 0,
+ "match_types": {
+  "exact": 27,
+  "normalized": 0,
+  "fuzzy": 0
+ },
+ "pdf_readback_ok": 13,
+ "pdf_written": 13,
+ "docx_integrity": {
+  "N01_Redfern_Hollis_Contractors_Subcontract.docx": {
+   "reopens": true,
+   "reject_all_equals_original": true,
+   "libreoffice_converts": true,
+   "comments": 6
+  },
+  "N02_Granite_Point_Builders_Subcontract.docx": {
+   "reopens": true,
+   "reject_all_equals_original": true,
+   "libreoffice_converts": true,
+   "comments": 2
+  },
+  "N03_Lakeshore_Design_Build_LLC_Subcontract.docx": {
+   "reopens": true,
+   "reject_all_equals_original": true,
+   "libreoffice_converts": true,
+   "comments": 6
+  }
+ },
+ "calls": 70,
+ "retries": 0,
+ "failures": 0,
+ "schema_violations": 0,
+ "repaired_in_code": 0,
+ "max_input_tokens": 1477,
+ "max_output_tokens": 5155,
+ "median_call_seconds": 9.32,
+ "p95_call_seconds": 47.86
+}

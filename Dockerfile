@@ -4,7 +4,7 @@ WORKDIR /app
 COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-dev --no-install-project
 COPY redline ./redline
-ENV PATH="/app/.venv/bin:$PATH" PYTHONUNBUFFERED=1
+ENV PATH="/app/.venv/bin:$PATH" PYTHONPATH=/app PYTHONUNBUFFERED=1
 # config comes from the environment / --env-file .env (LLM_BASE_URL, LLM_API_KEY, LLM_MODEL)
 ENTRYPOINT ["python", "-m", "redline.cli"]
 CMD ["--help"]
